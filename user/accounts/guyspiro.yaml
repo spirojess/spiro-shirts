@@ -1,0 +1,11 @@
+state: enabled
+email: admin@spirographics.com
+fullname: 'Guy Spiro'
+title: Admin
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$8/8zA.iJ4qzTvug/K0SBeu/lCLtmra/L7jRYf6C38LgJLOPXRBhb6

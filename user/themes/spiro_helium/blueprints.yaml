@@ -1,0 +1,9 @@
+name: Spiro_Helium
+version: "5.4.32"
+description: "Default Gantry 5 theme."
+
+
+
+form:
+  validation: loose
+  fields:
