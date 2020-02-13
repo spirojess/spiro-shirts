@@ -1,7 +1,7 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1581548600,
+    'timestamp' => 1581611812,
     'checksum' => 'b3273e6aab9d54728ded5d3ad9ab41d5',
     'files' => [
         'system/blueprints/config' => [
@@ -2907,10 +2907,10 @@ return [
                 'size' => 'x-small',
                 'append' => '0...1',
                 'label' => 'Resize Quality',
-                'default' => 0.8000000000000000444089209850062616169452667236328125,
+                'default' => 0.8,
                 'validate' => [
                     'type' => 'number',
-                    'step' => 0.01000000000000000020816681711721685132943093776702880859375
+                    'step' => 0.01
                 ],
                 'name' => 'plugins.admin.pagemedia.resize_quality',
                 'validation' => 'loose'
