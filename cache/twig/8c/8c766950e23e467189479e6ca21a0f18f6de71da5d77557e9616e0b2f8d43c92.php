@@ -162,6 +162,6 @@ class __TwigTemplate_4fa25e081313a3fef54b0f9ce2ec52a1b555b425618aa58a843690ef474
         {% endif %}
     {% if particle.link == true %}</a>{% else %}</div>{% endif %}
 {% endblock %}
-", "@particles/logo.html.twig", "/Applications/MAMP/htdocs/spiro_gravgantry_child/user/plugins/gantry5/engines/nucleus/particles/logo.html.twig");
+", "@particles/logo.html.twig", "/Applications/MAMP/htdocs/spiro-shirts/user/plugins/gantry5/engines/nucleus/particles/logo.html.twig");
     }
 }

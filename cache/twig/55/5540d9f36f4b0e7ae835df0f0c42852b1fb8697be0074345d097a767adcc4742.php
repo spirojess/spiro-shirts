@@ -130,6 +130,6 @@ class __TwigTemplate_08420f139142bf7b01cd63b6d4dc7f41dac3be3122ad9a98236803429a0
     {% if particle.additional.text is not empty %}<br />{{ particle.additional.text|raw }}{% endif %}
 </div>
 {% endblock %}
-", "@particles/copyright.html.twig", "/Applications/MAMP/htdocs/spiro_gravgantry_child/user/themes/g5_helium/particles/copyright.html.twig");
+", "@particles/copyright.html.twig", "/Applications/MAMP/htdocs/spiro-shirts/user/themes/g5_helium/particles/copyright.html.twig");
     }
 }

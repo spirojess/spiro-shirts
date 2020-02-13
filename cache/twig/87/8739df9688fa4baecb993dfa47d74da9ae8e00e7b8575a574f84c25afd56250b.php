@@ -190,6 +190,6 @@ class __TwigTemplate_6d0583e003ec6e81680f062839257f383cef09bc565663855794e1bbb6c
 {% catch %}
     <div class=\"alert alert-error\"><strong>Error</strong> while rendering {{ segment.subtype }} particle.</div>
 {% endtry %}
-", "@nucleus/content/particle.html.twig", "/Applications/MAMP/htdocs/spiro_gravgantry_child/user/plugins/gantry5/engines/nucleus/templates/content/particle.html.twig");
+", "@nucleus/content/particle.html.twig", "/Applications/MAMP/htdocs/spiro-shirts/user/plugins/gantry5/engines/nucleus/templates/content/particle.html.twig");
     }
 }

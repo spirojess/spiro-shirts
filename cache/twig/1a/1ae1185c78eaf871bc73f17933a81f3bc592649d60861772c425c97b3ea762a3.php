@@ -905,6 +905,6 @@ class __TwigTemplate_04420ce3fbaa232af4ed97286f98cda3ce9fbbfc09baf12621a97a70f47
         </ul>
     </nav>
 {% endif %}
-", "@particles/menu.html.twig", "/Applications/MAMP/htdocs/spiro_gravgantry_child/user/plugins/gantry5/engines/nucleus/particles/menu.html.twig");
+", "@particles/menu.html.twig", "/Applications/MAMP/htdocs/spiro-shirts/user/plugins/gantry5/engines/nucleus/particles/menu.html.twig");
     }
 }

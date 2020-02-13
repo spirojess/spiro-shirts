@@ -283,6 +283,6 @@ class __TwigTemplate_202d6afbcb810183698643e65662442557840e7eacb49f4532cb4020d7a
 </div>
 
 {% endblock %}
-", "@particles/contentcubes.html.twig", "/Applications/MAMP/htdocs/spiro_gravgantry_child/user/themes/g5_helium/particles/contentcubes.html.twig");
+", "@particles/contentcubes.html.twig", "/Applications/MAMP/htdocs/spiro-shirts/user/themes/g5_helium/particles/contentcubes.html.twig");
     }
 }

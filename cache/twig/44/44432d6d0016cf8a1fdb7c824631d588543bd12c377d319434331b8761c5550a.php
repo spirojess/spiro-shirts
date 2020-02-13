@@ -79,6 +79,6 @@ class __TwigTemplate_96df2150b85edfa3c895a255669dcdc466dbeb317a8f3620a69cb604018
     {% set html = particle.twig ? gantry.theme.compile(particle.html) : particle.html %}
     {{ (particle.filter ? gantry.platform.filter(html) : html)|html|raw }}
 {% endblock %}
-", "@particles/custom.html.twig", "/Applications/MAMP/htdocs/spiro_gravgantry_child/user/plugins/gantry5/engines/nucleus/particles/custom.html.twig");
+", "@particles/custom.html.twig", "/Applications/MAMP/htdocs/spiro-shirts/user/plugins/gantry5/engines/nucleus/particles/custom.html.twig");
     }
 }

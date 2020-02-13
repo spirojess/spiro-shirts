@@ -75,6 +75,6 @@ class __TwigTemplate_d8e7c1de0dcddce32951ba9c5d5cb2f746a5ed431528a31236e7765ec26
 {% block particle %}
     <div id=\"g-mobilemenu-container\" data-g-menu-breakpoint=\"{{ gantry.config.get('styles.breakpoints.mobile-menu-breakpoint')|default('48rem') }}\"></div>
 {% endblock %}
-", "@particles/mobile-menu.html.twig", "/Applications/MAMP/htdocs/spiro_gravgantry_child/user/plugins/gantry5/engines/nucleus/particles/mobile-menu.html.twig");
+", "@particles/mobile-menu.html.twig", "/Applications/MAMP/htdocs/spiro-shirts/user/plugins/gantry5/engines/nucleus/particles/mobile-menu.html.twig");
     }
 }

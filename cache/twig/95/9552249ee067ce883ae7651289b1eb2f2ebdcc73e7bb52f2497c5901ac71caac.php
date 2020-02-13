@@ -130,6 +130,6 @@ class __TwigTemplate_f968cd13658cd06d8bef533498220a84337bcbb059bf2ff992cd37a149c
     {{ offcanvas|raw -}}
 </div>
 {% endif %}
-", "@nucleus/layout/offcanvas.html.twig", "/Applications/MAMP/htdocs/spiro_gravgantry_child/user/plugins/gantry5/engines/nucleus/templates/layout/offcanvas.html.twig");
+", "@nucleus/layout/offcanvas.html.twig", "/Applications/MAMP/htdocs/spiro-shirts/user/plugins/gantry5/engines/nucleus/templates/layout/offcanvas.html.twig");
     }
 }
