@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'gantry-admin://translations/en/nucleus.yaml',
-    'modified' => 1577979928,
+    'modified' => 1581548401,
     'data' => [
         'GANTRY5_ENGINE_SORRY_NO_CONTENT' => 'Sorry, no content',
         'GANTRY5_ENGINE_UNKNOWN_ERROR' => 'Unknown error',

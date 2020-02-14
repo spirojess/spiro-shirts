@@ -318,6 +318,6 @@ $context["childName"], "field" => $context["child"], "current_value" => ($contex
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/container/tabs.html.twig", "/Applications/MAMP/htdocs/spiro_gravgantry_child/user/plugins/gantry5/admin/templates/forms/fields/container/tabs.html.twig");
+        return new Source("", "forms/fields/container/tabs.html.twig", "/Applications/MAMP/htdocs/spiro-shirts/user/plugins/gantry5/admin/templates/forms/fields/container/tabs.html.twig");
     }
 }

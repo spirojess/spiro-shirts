@@ -1,21 +1,21 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1581609562,
-    'checksum' => '6885c0f6c421d0e1bcb528bc3492e7bf',
+    'timestamp' => 1581700947,
+    'checksum' => '7b1f0b59079a2abbf966308d9e8318e8',
     'files' => [
         'user/data/gantry5/themes/spiro_helium/config/home_-_particles' => [
             'assignments' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/home_-_particles/assignments.yaml',
-                'modified' => 1581548399
+                'modified' => 1581696245
             ],
             'index' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/home_-_particles/index.yaml',
-                'modified' => 1581548399
+                'modified' => 1581698174
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/home_-_particles/layout.yaml',
-                'modified' => 1581548399
+                'modified' => 1581698174
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/home_-_particles/styles.yaml',
@@ -25,7 +25,7 @@ return [
         'user/data/gantry5/themes/spiro_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/default/index.yaml',
-                'modified' => 1581548399
+                'modified' => 1581698174
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/default/layout.yaml',
@@ -37,23 +37,83 @@ return [
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/branding.yaml',
-                'modified' => 1581548399
+                'modified' => 1581699098
+            ],
+            'particles/content' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/content.yaml',
+                'modified' => 1581699098
+            ],
+            'particles/contentarray' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/contentarray.yaml',
+                'modified' => 1581699098
+            ],
+            'particles/contentcubes' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/contentcubes.yaml',
+                'modified' => 1581699098
+            ],
+            'particles/contenttabs' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/contenttabs.yaml',
+                'modified' => 1581699098
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/copyright.yaml',
-                'modified' => 1581548399
+                'modified' => 1581699098
+            ],
+            'particles/custom' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/custom.yaml',
+                'modified' => 1581699098
+            ],
+            'particles/date' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/date.yaml',
+                'modified' => 1581699098
+            ],
+            'particles/horizontalmenu' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/horizontalmenu.yaml',
+                'modified' => 1581699098
+            ],
+            'particles/login' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/login.yaml',
+                'modified' => 1581699098
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/logo.yaml',
-                'modified' => 1581548399
+                'modified' => 1581699098
+            ],
+            'particles/menu' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/menu.yaml',
+                'modified' => 1581699098
+            ],
+            'particles/messages' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/messages.yaml',
+                'modified' => 1581699098
+            ],
+            'particles/mobile-menu' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/mobile-menu.yaml',
+                'modified' => 1581699098
+            ],
+            'particles/owlcarousel' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/owlcarousel.yaml',
+                'modified' => 1581699098
+            ],
+            'particles/position' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/position.yaml',
+                'modified' => 1581699098
+            ],
+            'particles/search' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/search.yaml',
+                'modified' => 1581699098
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/social.yaml',
-                'modified' => 1581548399
+                'modified' => 1581699098
+            ],
+            'particles/spacer' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/spacer.yaml',
+                'modified' => 1581699098
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/default/particles/totop.yaml',
-                'modified' => 1581548399
+                'modified' => 1581699098
             ]
         ],
         'user/themes/g5_helium/config/default' => [
@@ -89,14 +149,26 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1',
+                'css' => [
+                    'class' => ''
+                ],
+                'title' => '',
+                'items' => [
+                    
+                ]
             ],
             'contenttabs' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
-                'animation' => 'slide'
+                'enabled' => '1',
+                'animation' => 'left',
+                'class' => '',
+                'title' => '',
+                'items' => [
+                    
+                ]
             ],
             'copyright' => [
                 'caching' => [
@@ -121,18 +193,28 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
-                'target' => '_blank'
+                'enabled' => '1',
+                'target' => '_blank',
+                'class' => '',
+                'items' => [
+                    
+                ]
             ],
             'owlcarousel' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'nav' => 'disable',
                 'dots' => 'enable',
                 'autoplay' => 'disable',
-                'imageOverlay' => 'enable'
+                'imageOverlay' => 'enable',
+                'class' => '',
+                'title' => '',
+                'autoplaySpeed' => '',
+                'items' => [
+                    
+                ]
             ],
             'branding' => [
                 'caching' => [
@@ -152,7 +234,7 @@ return [
                         'filter' => '0'
                     ]
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'twig' => '0',
                 'filter' => '0'
             ],
@@ -162,32 +244,49 @@ return [
                 ],
                 'enabled' => '1',
                 'target' => '_self',
-                'link' => true,
+                'link' => '1',
                 'url' => '',
                 'image' => '',
-                'svg' => '<svg width="100%" height="100%" viewBox="0 0 67 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><path id="logo" d="M16.508,3.838l14.882,7.044l0,18.089l-14.882,7.044l-14.883,-7.044l0,-18.089l14.883,-7.044l0,0ZM26.983,21.828c0.024,-0.138 0.046,-0.324 0.064,-0.556c0.018,-0.233 0.027,-0.469 0.027,-0.708c0,-0.654 -0.091,-1.267 -0.275,-1.839c-0.183,-0.572 -0.455,-1.066 -0.815,-1.481c-0.361,-0.414 -0.797,-0.741 -1.311,-0.98c-0.513,-0.239 -1.099,-0.359 -1.759,-0.359c-0.758,0 -1.421,0.135 -1.989,0.406c-0.568,0.27 -1.045,0.638 -1.43,1.103c-0.384,0.466 -0.675,1.013 -0.87,1.641c-0.196,0.629 -0.293,1.302 -0.293,2.019c0,0.729 0.094,1.402 0.284,2.018c0.189,0.616 0.482,1.147 0.879,1.594c0.398,0.446 0.911,0.795 1.54,1.047c0.629,0.251 1.384,0.377 2.264,0.377c1.197,0 2.272,-0.189 3.226,-0.566c-0.013,-0.402 -0.068,-0.779 -0.165,-1.132c-0.098,-0.352 -0.214,-0.654 -0.349,-0.905c-0.391,0.151 -0.803,0.267 -1.237,0.349c-0.434,0.082 -0.858,0.123 -1.274,0.123c-0.757,0 -1.368,-0.17 -1.833,-0.51c-0.464,-0.339 -0.721,-0.886 -0.769,-1.641l6.085,0ZM44.956,17.583c0.384,-0.064 0.763,-0.096 1.136,-0.096c0.373,0 0.752,0.032 1.136,0.096l0,4.384c0,0.438 0.035,0.798 0.104,1.08c0.069,0.283 0.176,0.507 0.32,0.672c0.144,0.166 0.323,0.283 0.536,0.352c0.213,0.07 0.464,0.104 0.752,0.104c0.395,0 0.725,-0.037 0.992,-0.112l0,-6.48c0.384,-0.064 0.757,-0.096 1.12,-0.096c0.373,0 0.752,0.032 1.136,0.096l0,7.952c-0.341,0.118 -0.792,0.232 -1.352,0.344c-0.56,0.112 -1.144,0.168 -1.752,0.168c-0.544,0 -1.067,-0.042 -1.568,-0.128c-0.501,-0.085 -0.941,-0.266 -1.32,-0.544c-0.379,-0.277 -0.68,-0.682 -0.904,-1.216c-0.224,-0.533 -0.336,-1.242 -0.336,-2.128l0,-4.448l0,0ZM13.566,20.017l0,5.867c0.452,0.075 0.904,0.113 1.356,0.113c0.428,0 0.874,-0.038 1.338,-0.113l0,-13.563c-0.464,-0.075 -0.916,-0.113 -1.356,-0.113c-0.44,0 -0.886,0.038 -1.338,0.113l0,5.32l-4.417,0l0,-5.32c-0.465,-0.075 -0.917,-0.113 -1.357,-0.113c-0.439,0 -0.885,0.038 -1.338,0.113l0,13.563c0.453,0.075 0.905,0.113 1.357,0.113c0.427,0 0.873,-0.038 1.338,-0.113l0,-5.867l4.417,0ZM36.11,14.063c0.352,0.002 0.714,0.034 1.086,0.096l0,8.4c0,0.331 0.019,0.598 0.056,0.8c0.037,0.203 0.096,0.36 0.176,0.472c0.08,0.112 0.184,0.19 0.312,0.232c0.128,0.043 0.288,0.064 0.48,0.064c0.085,0 0.179,-0.005 0.28,-0.016c0.101,-0.01 0.2,-0.026 0.296,-0.048c0.117,0.438 0.176,0.864 0.176,1.28c0,0.086 0,0.163 0,0.232c0,0.07 -0.011,0.147 -0.032,0.232c-0.171,0.054 -0.376,0.091 -0.616,0.112c-0.24,0.022 -0.461,0.032 -0.664,0.032c-0.821,0 -1.48,-0.226 -1.976,-0.68c-0.496,-0.453 -0.744,-1.192 -0.744,-2.216l0,-8.896c0.384,-0.064 0.763,-0.096 1.136,-0.096l0.034,0ZM40.636,19.311l-1.072,0c-0.032,-0.138 -0.056,-0.285 -0.072,-0.44c-0.016,-0.154 -0.024,-0.301 -0.024,-0.44c0,-0.288 0.032,-0.57 0.096,-0.848l3.296,0l0,8.272c-0.384,0.064 -0.757,0.096 -1.12,0.096c-0.352,0 -0.72,-0.032 -1.104,-0.096l0,-6.544l0,0ZM63.538,17.391c0.928,0.004 1.61,0.263 2.05,0.776c0.443,0.518 0.664,1.326 0.664,2.424l0,5.264c-0.384,0.064 -0.763,0.096 -1.136,0.096c-0.373,0 -0.752,-0.032 -1.136,-0.096l0,-4.672c0,-0.576 -0.072,-1.018 -0.216,-1.328c-0.144,-0.309 -0.435,-0.464 -0.872,-0.464c-0.181,0 -0.36,0.027 -0.536,0.08c-0.176,0.054 -0.336,0.152 -0.48,0.296c-0.144,0.144 -0.261,0.347 -0.352,0.608c-0.091,0.262 -0.136,0.6 -0.136,1.016l0,4.464c-0.384,0.064 -0.763,0.096 -1.136,0.096c-0.373,0 -0.752,-0.032 -1.136,-0.096l0,-4.672c0,-0.576 -0.072,-1.018 -0.216,-1.328c-0.144,-0.309 -0.435,-0.464 -0.872,-0.464c-0.181,0 -0.363,0.027 -0.544,0.08c-0.181,0.054 -0.344,0.158 -0.488,0.312c-0.144,0.155 -0.259,0.371 -0.344,0.648c-0.085,0.278 -0.128,0.64 -0.128,1.088l0,4.336c-0.384,0.064 -0.763,0.096 -1.136,0.096c-0.373,0 -0.752,-0.032 -1.136,-0.096l0,-8.272c0.149,-0.032 0.299,-0.056 0.448,-0.072c0.149,-0.016 0.315,-0.024 0.496,-0.024c0.181,0 0.341,0.008 0.48,0.024c0.139,0.016 0.283,0.04 0.432,0.072c0.032,0.054 0.061,0.131 0.088,0.232c0.027,0.102 0.051,0.208 0.072,0.32c0.021,0.112 0.04,0.222 0.056,0.328c0.016,0.107 0.029,0.198 0.04,0.272c0.085,-0.16 0.197,-0.32 0.336,-0.48c0.139,-0.16 0.304,-0.304 0.496,-0.432c0.192,-0.128 0.408,-0.232 0.648,-0.312c0.24,-0.08 0.509,-0.12 0.808,-0.12c1.291,0 2.117,0.491 2.48,1.472c0.213,-0.394 0.515,-0.738 0.904,-1.032c0.389,-0.293 0.883,-0.44 1.48,-0.44l0.022,0ZM24.618,19.961l-3.702,0c0.061,-0.642 0.25,-1.138 0.568,-1.49c0.318,-0.353 0.782,-0.529 1.393,-0.529c0.538,0 0.956,0.186 1.256,0.557c0.299,0.371 0.461,0.858 0.485,1.462ZM40.3,16.191c-0.064,-0.362 -0.096,-0.72 -0.096,-1.072c0,-0.341 0.032,-0.698 0.096,-1.072c0.181,-0.032 0.376,-0.056 0.584,-0.072c0.208,-0.016 0.397,-0.024 0.568,-0.024c0.181,0 0.379,0.008 0.592,0.024c0.213,0.016 0.411,0.04 0.592,0.072c0.032,0.182 0.053,0.36 0.064,0.536c0.011,0.176 0.016,0.355 0.016,0.536c0,0.171 -0.005,0.347 -0.016,0.528c-0.011,0.182 -0.032,0.363 -0.064,0.544c-0.181,0.032 -0.376,0.054 -0.584,0.064c-0.208,0.011 -0.403,0.016 -0.584,0.016c-0.171,0 -0.363,-0.005 -0.576,-0.016c-0.213,-0.01 -0.411,-0.032 -0.592,-0.064l0,0Z"/></svg>',
+                'svg' => '<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 358.59 44.65">
+  <title>SPIROSHIRTS</title>
+  <g>
+    <path d="M21.55,9.29A10.4,10.4,0,0,0,19,6.07,7.72,7.72,0,0,0,14.2,4.58C9.94,4.58,7,7.23,7,11.23A4.51,4.51,0,0,0,8.58,15a14.11,14.11,0,0,0,4.52,2.71l4.13,1.81a20.91,20.91,0,0,1,6.65,4.06A10.38,10.38,0,0,1,27,31.36c0,7.94-5.87,13.23-13.61,13.23A12.85,12.85,0,0,1,4,41.11a15.63,15.63,0,0,1-4-7.62L4.65,32.2a10.15,10.15,0,0,0,2.58,5.49,8.22,8.22,0,0,0,6.19,2.38c5.87,0,8.65-4.19,8.65-8.52a6.42,6.42,0,0,0-2.13-5,19,19,0,0,0-5.16-3l-3.87-1.8A19.25,19.25,0,0,1,5.16,18.2a9,9,0,0,1-3-7C2.19,4.52,7.29.06,14.26.06A11.67,11.67,0,0,1,21.17,2a13,13,0,0,1,4.19,4.78Z" fill="#f1f2f2"/>
+    <path d="M43.56.77c4.32,0,7.93.52,10.84,3A12,12,0,0,1,58.33,13c0,6.06-3.8,12.06-13.61,12.06h-4.2V43.82H35.75V.77Zm-3,19.81h3.94c5.68,0,9.1-2.83,9.1-7.8,0-6.84-6.39-7.49-9.49-7.49H40.52Z" fill="#f1f2f2"/>
+    <path d="M70,.77V43.82H65.17V.77Z" fill="#f1f2f2"/>
+    <path d="M88,.77c2.91,0,7.23.2,10.46,2.39a11.25,11.25,0,0,1,4.71,9.55c0,6.58-4.33,11.42-10.84,11.88L106,43.82h-5.81L87.05,25H85.82V43.82H81.05V.77ZM85.82,20.71h3c5.93,0,9.48-2.83,9.48-7.87a6.69,6.69,0,0,0-3.42-6.32,12.23,12.23,0,0,0-6.19-1.23H85.82Z" fill="#f1f2f2"/>
+    <path d="M111.12,22.33a22.39,22.39,0,0,1,44.78,0,22.39,22.39,0,0,1-44.78,0Zm4.9,0a17.49,17.49,0,1,0,35,0,17.49,17.49,0,1,0-35,0Z" fill="#f1f2f2"/>
+    <path d="M197.91,10.32a6.66,6.66,0,0,0-6.58-4.25c-4,0-6.07,2.38-6.07,5.16,0,1.29.45,3.55,4.65,5.23l4.32,1.74c7.94,3.22,10.13,7.74,10.13,12.64,0,8.2-5.8,13.81-13.87,13.81a12.59,12.59,0,0,1-10.13-4.32,13.9,13.9,0,0,1-3.61-8.39l6.51-1.42A9.34,9.34,0,0,0,185.07,36a6.79,6.79,0,0,0,5.61,2.58,6.92,6.92,0,0,0,7.1-7.23c0-4.39-3.35-6.19-6.19-7.36l-4.13-1.74c-3.55-1.48-8.78-4.45-8.78-10.9C178.68,5.55,183.2,0,191.26,0a12.69,12.69,0,0,1,8.65,2.9,14.72,14.72,0,0,1,3.29,4.33Z" fill="#f1f2f2"/>
+    <path d="M219.2,17.81h18.46V.77h6.58V43.82h-6.58V24H219.2V43.82h-6.58V.77h6.58Z" fill="#f1f2f2"/>
+    <path d="M261.15.77V43.82h-6.58V.77Z" fill="#f1f2f2"/>
+    <path d="M279.15.77c5.23,0,8.59.65,11.36,2.52a12,12,0,0,1,5.1,10.13,11.8,11.8,0,0,1-9.55,12l13.42,18.4h-7.94L279.22,26.2h-1.16V43.82h-6.59V.77Zm-1.09,19.75h2.06c1.81,0,9.16-.19,9.16-7,0-6.07-5.74-6.65-9-6.65h-2.25Z" fill="#f1f2f2"/>
+    <path d="M317.87,7V43.82h-6.58V7h-9.87V.77h26.32V7Z" fill="#f1f2f2"/>
+    <path d="M352.14,10.32a6.66,6.66,0,0,0-6.59-4.25c-4,0-6.06,2.38-6.06,5.16,0,1.29.45,3.55,4.64,5.23l4.33,1.74c7.94,3.22,10.13,7.74,10.13,12.64,0,8.2-5.81,13.81-13.87,13.81a12.62,12.62,0,0,1-10.14-4.32A14,14,0,0,1,331,31.94l6.52-1.42a9.33,9.33,0,0,0,1.8,5.49,6.81,6.81,0,0,0,5.62,2.58,6.92,6.92,0,0,0,7.1-7.23c0-4.39-3.36-6.19-6.2-7.36l-4.13-1.74c-3.55-1.48-8.77-4.45-8.77-10.9C332.91,5.55,337.42,0,345.49,0a12.71,12.71,0,0,1,8.65,2.9,14.89,14.89,0,0,1,3.29,4.33Z" fill="#f1f2f2"/>
+  </g>
+</svg>
+',
                 'text' => '',
-                'class' => 'g-logo g-logo-helium'
+                'class' => 'g-logo g-logo-helium',
+                'height' => ''
             ],
             'menu' => [
                 'caching' => [
                     'type' => 'menu'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'menu' => '',
                 'base' => '/',
-                'startLevel' => 1,
-                'maxLevels' => 0,
-                'renderTitles' => 0,
-                'hoverExpand' => 1,
-                'mobileTarget' => 0,
-                'forceTarget' => 0
+                'startLevel' => '1',
+                'maxLevels' => '0',
+                'renderTitles' => '0',
+                'hoverExpand' => '1',
+                'mobileTarget' => '0',
+                'forceTarget' => '0'
             ],
             'mobile-menu' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'social' => [
                 'caching' => [
@@ -225,7 +324,7 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'totop' => [
                 'caching' => [
@@ -253,10 +352,10 @@ return [
                 'enabled' => true
             ],
             'content' => [
-                'enabled' => true
+                'enabled' => '1'
             ],
             'contentarray' => [
-                'enabled' => true,
+                'enabled' => '1',
                 'article' => [
                     'limit' => [
                         'total' => 2,
@@ -274,30 +373,40 @@ return [
                             'formatting' => 'text'
                         ],
                         'title' => [
-                            'enabled' => 'show'
+                            'enabled' => 'show',
+                            'limit' => ''
                         ],
                         'date' => [
                             'enabled' => 'published',
                             'format' => 'l, F d, Y'
                         ],
                         'read_more' => [
-                            'enabled' => 'show'
+                            'enabled' => 'show',
+                            'label' => '',
+                            'css' => ''
                         ],
                         'author' => [
                             'enabled' => 'show'
                         ],
                         'category' => [
-                            'enabled' => 'link'
+                            'enabled' => 'show',
+                            'route' => ''
                         ]
                     ],
                     'sort' => [
                         'orderby' => 'default',
                         'ordering' => 'asc'
                     ]
+                ],
+                'css' => [
+                    'class' => ''
+                ],
+                'extra' => [
+                    
                 ]
             ],
             'date' => [
-                'enabled' => true,
+                'enabled' => '1',
                 'css' => [
                     'class' => 'date'
                 ],
@@ -333,16 +442,17 @@ return [
                 'enabled' => true
             ],
             'login' => [
-                'enabled' => true
+                'enabled' => '1'
             ],
             'messages' => [
-                'enabled' => true
+                'enabled' => '1'
             ],
             'position' => [
-                'enabled' => true
+                'enabled' => '1',
+                'chrome' => ''
             ],
             'search' => [
-                'enabled' => true
+                'enabled' => '1'
             ]
         ],
         'styles' => [

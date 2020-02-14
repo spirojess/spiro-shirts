@@ -108,6 +108,6 @@ class __TwigTemplate_76c7e948ea41b84991e44db9985546c6506e5f7b828cdcf8cf008082e22
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/menu/list.html.twig", "/Applications/MAMP/htdocs/spiro_gravgantry_child/user/plugins/gantry5/admin/templates/forms/fields/menu/list.html.twig");
+        return new Source("", "forms/fields/menu/list.html.twig", "/Applications/MAMP/htdocs/spiro-shirts/user/plugins/gantry5/admin/templates/forms/fields/menu/list.html.twig");
     }
 }
