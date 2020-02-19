@@ -1,11 +1,11 @@
 enabled: '1'
 date:
-  start: '2016'
+  start: '2020'
   end: now
-owner: 'Gantry Framework'
+owner: 'Spiro Graphics, Inc. DBA Spiro Shirts'
 link: ''
 target: _blank
 additional:
-  text: 'Developed by RocketTheme exclusively<br />for Gantry 5.'
+  text: 'Designed by Spirographics, Inc.'
 css:
   class: ''

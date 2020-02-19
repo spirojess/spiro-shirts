@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1581611812,
-    'checksum' => 'b3273e6aab9d54728ded5d3ad9ab41d5',
+    'timestamp' => 1582154663,
+    'checksum' => '97413449524443a3e4bdb7f95bb5476e',
     'files' => [
         'system/blueprints/config' => [
             'backups' => [
@@ -45,31 +45,31 @@ return [
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1581548401
+                'modified' => 1581548400
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1581548401
+                'modified' => 1581548400
             ],
             'plugins/gantry5' => [
                 'file' => 'user/plugins/gantry5/blueprints.yaml',
-                'modified' => 1581548401
+                'modified' => 1581548400
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1581548401
+                'modified' => 1581548400
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/blueprints.yaml',
-                'modified' => 1581548401
+                'modified' => 1581548400
             ],
             'plugins/pagination' => [
                 'file' => 'user/plugins/pagination/blueprints.yaml',
-                'modified' => 1581548401
+                'modified' => 1581548400
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1581548401
+                'modified' => 1581548400
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/blueprints.yaml',
@@ -2907,10 +2907,10 @@ return [
                 'size' => 'x-small',
                 'append' => '0...1',
                 'label' => 'Resize Quality',
-                'default' => 0.8,
+                'default' => 0.8000000000000000444089209850062616169452667236328125,
                 'validate' => [
                     'type' => 'number',
-                    'step' => 0.01
+                    'step' => 0.01000000000000000020816681711721685132943093776702880859375
                 ],
                 'name' => 'plugins.admin.pagemedia.resize_quality',
                 'validation' => 'loose'

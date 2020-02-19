@@ -1,64 +1,57 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1581609562,
-    'checksum' => 'ae86d1fa4e82cdd56f454c3a8b9325e7',
+    'timestamp' => 1582154663,
+    'checksum' => '3da0354146a7f657a7993352fa5f17f2',
     'files' => [
         0 => [
-            'block_variations' => [
-                'file' => 'user/data/gantry5/themes/spiro_helium/config/block_variations/assignments.yaml',
-                'modified' => 1581548399
-            ],
             'full_width' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/full_width/assignments.yaml',
-                'modified' => 1581548399
+                'modified' => 1581548398
             ],
-            'home_-_particles' => [
-                'file' => 'user/data/gantry5/themes/spiro_helium/config/home_-_particles/assignments.yaml',
-                'modified' => 1581548399
+            'home_-_option2' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/home_-_option2/assignments.yaml',
+                'modified' => 1581702850
             ],
             'left_sidebar' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/left_sidebar/assignments.yaml',
-                'modified' => 1581548399
+                'modified' => 1581548398
             ],
             'offline_page' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/offline_page/assignments.yaml',
-                'modified' => 1581548399
+                'modified' => 1581548398
             ],
             'particles' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/particles/assignments.yaml',
-                'modified' => 1581548399
+                'modified' => 1581548398
             ],
             'right_sidebar' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/right_sidebar/assignments.yaml',
-                'modified' => 1581548399
+                'modified' => 1581548398
             ],
             'rows_columns' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/rows_columns/assignments.yaml',
-                'modified' => 1581548399
+                'modified' => 1581548398
+            ],
+            'splash1' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/splash1/assignments.yaml',
+                'modified' => 1581702086
             ],
             'two_sidebars' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/two_sidebars/assignments.yaml',
-                'modified' => 1581548399
+                'modified' => 1581548398
             ],
             'two_sidebars_left' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/two_sidebars_left/assignments.yaml',
-                'modified' => 1581548399
+                'modified' => 1581548398
             ],
             'two_sidebars_right' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/two_sidebars_right/assignments.yaml',
-                'modified' => 1581548399
+                'modified' => 1581548398
             ]
         ]
     ],
     'data' => [
-        'block_variations' => [
-            'page' => [
-                0 => [
-                    'features/block-variations' => 1
-                ]
-            ]
-        ],
         'full_width' => [
             'page' => [
                 0 => [
@@ -66,7 +59,7 @@ return [
                 ]
             ]
         ],
-        'home_-_particles' => [
+        'home_-_option2' => [
             'page' => [
                 0 => [
                     'home' => true
@@ -113,6 +106,19 @@ return [
                 0 => [
                     'sample-layouts/rows-columns' => 1
                 ]
+            ]
+        ],
+        'splash1' => [
+            'page' => [
+                0 => [
+                    'jeepgirl' => true
+                ]
+            ],
+            'language' => [
+                
+            ],
+            'type' => [
+                
             ]
         ],
         'two_sidebars' => [
