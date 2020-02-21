@@ -6,6 +6,10 @@ taxonomy:
     category:
         - blog
         - shirt
+    tag:
+        - motors
+        - cars
+continue_link: true
 ---
 
 ![1958 Chevy Impala Shirts](image://rocketlauncher/pages/blog/art_58_chevy_impala_shirt.jpg)

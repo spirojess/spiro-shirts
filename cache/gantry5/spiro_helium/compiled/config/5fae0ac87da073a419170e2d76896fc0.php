@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1582154663,
-    'checksum' => '3da0354146a7f657a7993352fa5f17f2',
+    'timestamp' => 1582301001,
+    'checksum' => '43f1f76b9a4d55fac98744de803aa990',
     'files' => [
         0 => [
             'full_width' => [
@@ -32,6 +32,10 @@ return [
             'rows_columns' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/rows_columns/assignments.yaml',
                 'modified' => 1581548398
+            ],
+            'shirts_as_pages' => [
+                'file' => 'user/data/gantry5/themes/spiro_helium/config/shirts_as_pages/assignments.yaml',
+                'modified' => 1582300997
             ],
             'splash1' => [
                 'file' => 'user/data/gantry5/themes/spiro_helium/config/splash1/assignments.yaml',
@@ -105,6 +109,21 @@ return [
             'page' => [
                 0 => [
                     'sample-layouts/rows-columns' => 1
+                ]
+            ]
+        ],
+        'shirts_as_pages' => [
+            'page' => [
+                
+            ],
+            'language' => [
+                
+            ],
+            'type' => [
+                0 => [
+                    'page' => true,
+                    'page_head' => true,
+                    'snipcart' => true
                 ]
             ]
         ],

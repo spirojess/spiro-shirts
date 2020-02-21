@@ -1,5 +1,5 @@
 name: offline_page
-timestamp: 1582051939
+timestamp: 1582308976
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -22,6 +22,7 @@ sections:
 particles:
   custom:
     custom-8642: 'Custom HTML'
+    custom-6450: 'Custom HTML'
   content:
     system-content-1587: 'Page Content'
   logo:
@@ -47,6 +48,7 @@ inherit:
     logo-4683: logo-9608
     menu-4016: menu-6409
     social-6357: social-3171
+    custom-6450: custom-8799
     logo-2829: logo-9571
     copyright-9847: copyright-1736
     horizontalmenu-5451: horizontalmenu-9034

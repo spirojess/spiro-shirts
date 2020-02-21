@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1582154663,
-    'checksum' => '97413449524443a3e4bdb7f95bb5476e',
+    'timestamp' => 1582239300,
+    'checksum' => '5c15ce8fe2e2c7a34b48b98160aa54d7',
     'files' => [
         'system/blueprints/config' => [
             'backups' => [
@@ -74,6 +74,10 @@ return [
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/blueprints.yaml',
                 'modified' => 1581548402
+            ],
+            'plugins/snipcart' => [
+                'file' => 'user/plugins/snipcart/blueprints.yaml',
+                'modified' => 1582239299
             ]
         ]
     ],
@@ -4680,6 +4684,51 @@ return [
                 ],
                 'name' => 'plugins.simplesearch.order.dir',
                 'validation' => 'strict'
+            ],
+            'plugins.snipcart' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.snipcart.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Plugin status',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.snipcart.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.snipcart.built_in_css' => [
+                'type' => 'toggle',
+                'label' => 'Use built in CSS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.snipcart.built_in_css',
+                'validation' => 'strict'
+            ],
+            'plugins.snipcart.api_key' => [
+                'type' => 'text',
+                'size' => 'medium',
+                'label' => 'API Key',
+                'default' => 'YOUR_API_KEY',
+                'name' => 'plugins.snipcart.api_key',
+                'validation' => 'strict'
             ]
         ],
         'rules' => [
@@ -5206,6 +5255,11 @@ return [
                         'by' => 'plugins.simplesearch.order.by',
                         'dir' => 'plugins.simplesearch.order.dir'
                     ]
+                ],
+                'snipcart' => [
+                    'enabled' => 'plugins.snipcart.enabled',
+                    'built_in_css' => 'plugins.snipcart.built_in_css',
+                    'api_key' => 'plugins.snipcart.api_key'
                 ]
             ]
         ],

@@ -2,7 +2,6 @@ settings:
   title: Mainmenu
 ordering:
   home: ''
-  blog: ''
   jeepgirl: ''
   privacy-policy: ''
   sample-layouts:
@@ -13,35 +12,44 @@ ordering:
     two-sidebars-left: ''
     two-sidebars-right: ''
     rows-columns: ''
+  shirts:
+    58-chevy-impala-shirts: ''
 items:
   home:
     rel: ''
     enabled: true
     anchor_class: ''
-  blog:
+  shirts:
+    rel: ''
+    enabled: true
+    anchor_class: ''
+  shirts/58-chevy-impala-shirts:
     rel: ''
     enabled: true
     anchor_class: ''
   jeepgirl:
-    rel: ''
-    enabled: '1'
-    attributes: {  }
-    link_attributes: {  }
-    dropdown_dir: right
-    dropdown_hide: '0'
-    width: auto
-    anchor_class: ''
-  privacy-policy:
     enabled: '0'
     attributes: {  }
     link_attributes: {  }
     dropdown_dir: right
     dropdown_hide: '0'
     width: auto
-  sample-layouts:
+  privacy-policy:
     rel: ''
-    enabled: true
+    enabled: '0'
+    attributes: {  }
+    link_attributes: {  }
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
     anchor_class: ''
+  sample-layouts:
+    enabled: '0'
+    attributes: {  }
+    link_attributes: {  }
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
   sample-layouts/full-width:
     rel: ''
     enabled: true

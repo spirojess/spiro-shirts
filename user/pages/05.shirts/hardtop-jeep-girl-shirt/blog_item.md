@@ -5,6 +5,9 @@ taxonomy:
     category:
         - blog
         - shirt
+    tag:
+        - motors
+        - trucks
 markdown:
     extra: true
 ---

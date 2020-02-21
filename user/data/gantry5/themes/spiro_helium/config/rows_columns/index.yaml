@@ -1,5 +1,5 @@
 name: rows_columns
-timestamp: 1582051939
+timestamp: 1582308976
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -46,6 +46,7 @@ particles:
     custom-5490: Content
     custom-9374: 'Flexible Layouts'
     custom-4266: Lipsum
+    custom-9824: 'Custom HTML'
   logo:
     logo-3379: 'Logo / Image'
     logo-4952: 'Logo / Image'
@@ -69,6 +70,7 @@ inherit:
     logo-3379: logo-9608
     menu-3115: menu-6409
     social-4342: social-3171
+    custom-9824: custom-8799
     logo-4952: logo-9571
     copyright-3663: copyright-1736
     horizontalmenu-6421: horizontalmenu-9034

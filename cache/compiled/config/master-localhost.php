@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1582154663,
-    'checksum' => '3c40f3965ad2ea80db7b6843f0f2dc99',
+    'timestamp' => 1582239301,
+    'checksum' => 'c274587888ab93a88543f56e198e1f04',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -39,7 +39,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1581611766
+                'modified' => 1582236540
             ]
         ],
         'system/config' => [
@@ -108,6 +108,10 @@ return [
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/simplesearch.yaml',
                 'modified' => 1581548402
+            ],
+            'plugins/snipcart' => [
+                'file' => 'user/plugins/snipcart/snipcart.yaml',
+                'modified' => 1582239299
             ]
         ]
     ],
@@ -346,6 +350,11 @@ return [
                     'by' => 'date',
                     'dir' => 'desc'
                 ]
+            ],
+            'snipcart' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'api_key' => 'YOUR_API_KEY'
             ]
         ],
         'backups' => [

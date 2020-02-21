@@ -1,5 +1,5 @@
 name: right_sidebar
-timestamp: 1582051939
+timestamp: 1582308976
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -25,6 +25,7 @@ particles:
     custom-5490: Content
     custom-6361: 'Right Sidebar'
     custom-9374: 'Flexible Layouts'
+    custom-5966: 'Custom HTML'
   logo:
     logo-9853: 'Logo / Image'
     logo-1301: 'Logo / Image'
@@ -48,6 +49,7 @@ inherit:
     logo-9853: logo-9608
     menu-2236: menu-6409
     social-5426: social-3171
+    custom-5966: custom-8799
     logo-1301: logo-9571
     copyright-2232: copyright-1736
     horizontalmenu-7662: horizontalmenu-9034

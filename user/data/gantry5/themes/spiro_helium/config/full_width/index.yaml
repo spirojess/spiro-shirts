@@ -1,5 +1,5 @@
 name: full_width
-timestamp: 1582051939
+timestamp: 1582308976
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -24,6 +24,7 @@ particles:
   custom:
     custom-9029: Header
     custom-7890: Content
+    custom-7290: 'Custom HTML'
   logo:
     logo-1212: 'Logo / Image'
     logo-1291: 'Logo / Image'
@@ -51,6 +52,7 @@ inherit:
     menu-6059: menu-6409
     social-8619: social-3171
     position-position-4882: position-position-3949
+    custom-7290: custom-8799
     logo-1291: logo-9571
     copyright-3813: copyright-1736
     horizontalmenu-7609: horizontalmenu-9034
